@@ -1,0 +1,10 @@
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/Main.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/domain/Carte.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/service/CartiService.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/controller/BibliotecaCtrl.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/view/Consola.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/repo/CartiRepo.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/repo/CartiRepoInterface.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/validator/CarteValidator.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/repo/CartiRepoMock.java
+/home/ciprian/Projects/VVSS/Lab1/Library2/src/main/java/utils/CartiUtils.java

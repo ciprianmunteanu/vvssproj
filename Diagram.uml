@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="431.2904300356505" y="200.0">repo.CartiRepoMock</node>
+    <node x="54.89204545454544" y="120.0">validator.CarteValidator</node>
+    <node x="403.16854946524063" y="120.0">utils.CartiUtils</node>
+    <node x="0.0" y="360.0">view.Consola</node>
+    <node x="311.2904300356505" y="200.0">repo.CartiRepo</node>
+    <node x="204.2070967023172" y="120.0">repo.CartiRepoInterface</node>
+    <node x="160.25709670231717" y="200.0">service.CartiService</node>
+    <node x="59.720922459893046" y="280.0">controller.BibliotecaCtrl</node>
+    <node x="246.5139260249553" y="0.0">domain.Carte</node>
+    <node x="161.41854946524063" y="460.0">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="service.CartiService" target="repo.CartiRepoInterface">
+      <point x="36.666666666666686" y="-15.0" />
+      <point x="251.92376336898386" y="180.0" />
+      <point x="248.0070967023172" y="180.0" />
+      <point x="-29.19999999999999" y="15.0" />
+    </edge>
+    <edge source="view.Consola" target="domain.Carte">
+      <point x="-34.125" y="-15.0" />
+      <point x="11.375" y="335.0" />
+      <point x="17.25" y="335.0" />
+      <point x="17.25" y="50.0" />
+      <point x="249.96847147950075" y="50.0" />
+      <point x="-34.54545454545456" y="15.0" />
+    </edge>
+    <edge source="repo.CartiRepoMock" target="domain.Carte">
+      <point x="48.75" y="-15.0" />
+      <point x="545.0404300356505" y="180.0" />
+      <point x="535.2904300356505" y="180.0" />
+      <point x="535.2904300356505" y="60.0" />
+      <point x="319.0593805704098" y="60.0" />
+      <point x="34.545454545454504" y="15.0" />
+    </edge>
+    <edge source="Main" target="repo.CartiRepoMock">
+      <point x="32.8125" y="-15.0" />
+      <point x="231.73104946524063" y="440.0" />
+      <point x="496.2904300356505" y="440.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="controller.BibliotecaCtrl" target="service.CartiService">
+      <point x="44.625" y="-15.0" />
+      <point x="163.84592245989305" y="260.0" />
+      <point x="201.50709670231717" y="260.0" />
+      <point x="-13.75" y="15.0" />
+    </edge>
+    <edge source="repo.CartiRepoMock" target="utils.CartiUtils">
+      <point x="-16.25" y="-15.0" />
+      <point x="480.0404300356505" y="180.0" />
+      <point x="475.16854946524063" y="180.0" />
+      <point x="24.0" y="15.0" />
+    </edge>
+    <edge source="Main" target="controller.BibliotecaCtrl">
+      <point x="-4.6875" y="-15.0" />
+      <point x="194.23104946524063" y="410.0" />
+      <point x="167.73104946524063" y="410.0" />
+      <point x="167.73104946524063" y="335.0" />
+      <point x="163.84592245989305" y="335.0" />
+      <point x="44.625" y="15.0" />
+    </edge>
+    <edge source="Main" target="service.CartiService">
+      <point x="4.6875" y="-15.0" />
+      <point x="203.60604946524063" y="410.0" />
+      <point x="234.7810494652406" y="410.0" />
+      <point x="234.7810494652406" y="260.0" />
+      <point x="229.00709670231717" y="260.0" />
+      <point x="13.75" y="15.0" />
+    </edge>
+    <edge source="repo.CartiRepoMock" target="repo.CartiRepoInterface">
+      <point x="-48.75" y="-15.0" />
+      <point x="447.5404300356505" y="170.0" />
+      <point x="335.60709670231716" y="170.0" />
+      <point x="58.39999999999998" y="15.0" />
+    </edge>
+    <edge source="utils.CartiUtils" target="domain.Carte">
+      <point x="-24.0" y="-15.0" />
+      <point x="427.16854946524063" y="90.0" />
+      <point x="298.3321078431371" y="90.0" />
+      <point x="13.818181818181813" y="15.0" />
+    </edge>
+    <edge source="repo.CartiRepo" target="repo.CartiRepoInterface">
+      <point x="-33.33333333333334" y="-15.0" />
+      <point x="327.95709670231713" y="180.0" />
+      <point x="306.4070967023172" y="180.0" />
+      <point x="29.19999999999999" y="15.0" />
+    </edge>
+    <edge source="repo.CartiRepo" target="domain.Carte">
+      <point x="0.0" y="-15.0" />
+      <point x="360.70709670231713" y="100.0" />
+      <point x="291.4230169340462" y="100.0" />
+      <point x="6.909090909090878" y="15.0" />
+    </edge>
+    <edge source="repo.CartiRepoInterface" target="domain.Carte">
+      <point x="0.0" y="-15.0" />
+      <point x="277.2070967023172" y="100.0" />
+      <point x="284.5139260249553" y="100.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="controller.BibliotecaCtrl" target="validator.CarteValidator">
+      <point x="-14.875" y="-15.0" />
+      <point x="104.34592245989305" y="260.0" />
+      <point x="116.39204545454544" y="260.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="repo.CartiRepo" target="utils.CartiUtils">
+      <point x="33.33333333333334" y="-15.0" />
+      <point x="394.6237633689839" y="180.0" />
+      <point x="427.16854946524063" y="180.0" />
+      <point x="-24.0" y="15.0" />
+    </edge>
+    <edge source="controller.BibliotecaCtrl" target="domain.Carte">
+      <point x="-44.625" y="-15.0" />
+      <point x="74.59592245989305" y="260.0" />
+      <point x="44.39204545454544" y="260.0" />
+      <point x="44.39204545454544" y="70.0" />
+      <point x="263.78665329768256" y="70.0" />
+      <point x="-20.727272727272748" y="15.0" />
+    </edge>
+    <edge source="Main" target="view.Consola">
+      <point x="-23.4375" y="-15.0" />
+      <point x="175.48104946524063" y="430.0" />
+      <point x="68.25" y="430.0" />
+      <point x="22.75" y="15.0" />
+    </edge>
+    <edge source="service.CartiService" target="domain.Carte">
+      <point x="-36.66666666666663" y="-15.0" />
+      <point x="178.59043003565054" y="180.0" />
+      <point x="188.39204545454544" y="180.0" />
+      <point x="188.39204545454544" y="90.0" />
+      <point x="277.60483511586443" y="90.0" />
+      <point x="-6.909090909090878" y="15.0" />
+    </edge>
+    <edge source="validator.CarteValidator" target="domain.Carte">
+      <point x="0.0" y="-15.0" />
+      <point x="116.39204545454544" y="80.0" />
+      <point x="270.6957442067735" y="80.0" />
+      <point x="-13.818181818181813" y="15.0" />
+    </edge>
+    <edge source="Main" target="repo.CartiRepoInterface">
+      <point x="23.4375" y="-15.0" />
+      <point x="222.35604946524063" y="430.0" />
+      <point x="280.7570967023172" y="430.0" />
+      <point x="280.7570967023172" y="180.0" />
+      <point x="277.2070967023172" y="180.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="view.Consola" target="controller.BibliotecaCtrl">
+      <point x="34.125" y="-15.0" />
+      <point x="79.625" y="335.0" />
+      <point x="104.34592245989305" y="335.0" />
+      <point x="-14.875" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.6" x="302.7167832167833" y="262.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
